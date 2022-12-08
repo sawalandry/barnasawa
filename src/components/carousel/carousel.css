@@ -1,0 +1,13 @@
+.carousel {
+    padding: 2rem 0;
+}
+
+.carousel img {
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.thumbs-wrapper, .carousel-status {
+    display: none;
+}

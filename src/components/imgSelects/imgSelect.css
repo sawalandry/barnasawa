@@ -1,0 +1,36 @@
+.selects img {
+    height: 100%;
+    width: 100%;
+}
+
+.selects-location {
+    position: relative;
+}
+
+.selects-location .overlay {
+    opacity: 1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3); 
+    transition: 0.4s;
+}
+
+.selects-location p {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+}
+img:hover , .overlay p{
+    opacity: 1;
+}
